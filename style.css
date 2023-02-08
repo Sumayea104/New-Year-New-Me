@@ -1,14 +1,13 @@
 * {
   font-family: "Open Sans", sans-serif;
 }
-body {
-  margin: 0;
-  padding: 0;
-}
+
+
 /* banner */
-.banner-container img {
-  width: 100%;
+.banner-container img{
+    width: 100%;
 }
+
 .banner-heading {
   position: absolute;
   font-weight: 700;
@@ -20,6 +19,7 @@ body {
   height: 228px;
   left: 845px;
   top: 216px;
+  margin-bottom: 25px;
 }
 .banner-description {
   position: absolute;
@@ -32,7 +32,7 @@ body {
   line-height: 162%;
   text-align: right;
   color: #ffffff;
-  margin-bottom: 32px;
+  margin-bottom: 35px;
 }
 .btn-contact {
   position: absolute;
@@ -46,4 +46,15 @@ body {
   text-align: right;
   color: #005fac;
   padding: 20px 25px;
+}
+.mid-container{
+    display: flex;
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 45px 150px 50px 150px;
+    border: 1px;
+
 }
