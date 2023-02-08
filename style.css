@@ -1,9 +1,49 @@
-*{
-    font-family: 'Open Sans', sans-serif;
-
+* {
+  font-family: "Open Sans", sans-serif;
 }
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 /* banner */
+.banner-container img {
+  width: 100%;
+}
+.banner-heading {
+  position: absolute;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+  color: #ffffff;
+  width: 525px;
+  height: 228px;
+  left: 845px;
+  top: 216px;
+}
+.banner-description {
+  position: absolute;
+  width: 494px;
+  height: 78px;
+  left: 876px;
+  top: 468px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: right;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.btn-contact {
+  position: absolute;
+  width: 160px;
+  height: 64px;
+  left: 1210px;
+  top: 578px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+  color: #005fac;
+  padding: 20px 25px;
+}
