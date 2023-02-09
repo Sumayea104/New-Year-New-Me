@@ -1,7 +1,7 @@
 * {
   font-family: "Open Sans", sans-serif;
-  margin: 0 auto;
-  padding: 0;
+  /* margin: 0 auto;
+  padding: 0; */
 }
 
 /* banner */
@@ -72,7 +72,6 @@
   /* justify-content: space-around; */
 }
 .list-of-failure {
-  
   margin: 80px 50px;
   padding: 50px 10px;
 }
@@ -84,9 +83,9 @@ ul {
   font-size: 20px;
 }
 
-/* plans */
-.plans{
-  width: 1150px;
+/* ---------plans---------- */
+.plans {
+  width: 1400px;
   margin: 0 auto;
   margin-bottom: 230px;
 }
@@ -100,8 +99,8 @@ ul {
 .plan-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 50px 50px;
-  padding: 20px 40px;
+  /* margin: 50px 50px;
+  padding: 20px 40px; */
   font-size: 20px;
 }
 .plan-container img {
@@ -142,7 +141,6 @@ ul {
   background: url(images/gradient1.png) top right no-repeat;
   background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
   border-radius: 8px;
-
   background-size: 100%;
 }
 
@@ -150,45 +148,57 @@ ul {
   color: #f3f2f2;
   position: relative;
   margin: 50px 80px;
-  padding: 60px;
-  gap: 400px;
-  font-size: 40px;
+  padding: 60px 617px 60px 65px;
+  /* gap: 400px; */
+  font-size: 20px;
 }
 .mid-banner button {
   color: #005fac;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
   width: 160px;
   height: 64px;
   left: 294px;
   top: 2398.96px;
 }
-
-/* bonus */
-/* .focus-items {
+/* ------extra item--------- */
+.footer {
+  background-color: rgb(3, 3, 27);
+  padding: 130px 230px 130px 230px;
+  border: 1px;
   display: flex;
   justify-content: space-evenly;
 }
-.focus-description {
-} */
-.footer {
-  background-color: rgb(3, 3, 27);
-  padding: 45px 150px 50px 150px;
-  border: 1px;
-  display: flex;
-  justify-content: space-between;
-}
-.footer-items {
+.footer-items{
   text-align: left;
   color: #ffffff;
-  /* margin: 30px 20px;
-  padding:30px 20px; */
-  width: 50%;
-  padding: 50px;
+  padding: 5px;
+  width: 1150px;
+  margin: 0 auto;
+
+  
 }
+.footer-items a {
+  text-decoration: none;
+}
+
 .form {
+  width: 325px;
+  height: 204px;
+  left: 1046px;
+  top: 2781.96px;
   color: #ffffff;
-  width: 50%;
+  /* width: 50%;
   padding-top: 50px;
-  padding-left: 90px;
+  padding-left: 90px; */
 }
+.form input[type="email"], button{
+  margin-top: 20px;
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+  height: 15px;
+}
+
+
