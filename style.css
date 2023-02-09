@@ -12,7 +12,6 @@
 .banner-items {
   text-align: right;
   justify-content: right;
-
 }
 .banner-heading {
   position: absolute;
@@ -76,17 +75,16 @@
   margin: 30px 50px;
   padding: 80px 50px;
 }
-.list-of-failure h1{
+.list-of-failure h1 {
   font-size: 40px;
 }
-.list-of-failure
-p,
+.list-of-failure p,
 ul {
   font-size: 20px;
 }
 
 /* plans */
-.plan-title h1{
+.plan-title h1 {
   font-size: 40px;
   text-align: center;
   margin-top: 30px;
@@ -100,18 +98,20 @@ ul {
   padding: 20px 40px;
   font-size: 20px;
 }
-.plan-container img{
-    justify-content: center;
-  }
+.plan-container img {
+  justify-content: center;
+}
 
 /* -----plans end--------- */
 
 /* mid banner */
 #Wrap {
   position: relative;
+  margin-left: 250px;
   height: 300px;
-  width: 100%;
+  width: 1150px;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 #Left,
@@ -120,26 +120,25 @@ ul {
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
   border-radius: 8px;
 }
 
 #Left {
   left: 0;
   background: url(images/watch.png) top left no-repeat;
-  -webkit-mask-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
   background-size: 100%;
 }
 
 #Right {
   right: 0;
-  background: url(images/gradient3.png) top right no-repeat;
-  -webkit-mask-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  background: url(images/gradient1.png) top right no-repeat;
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
+  border-radius: 8px;
+
   background-size: 100%;
-  opacity: 70%;
 }
 
-.mid-banner{
+.mid-banner {
   color: #f3f2f2;
   position: relative;
   margin: 50px 80px;
@@ -147,14 +146,23 @@ ul {
   gap: 400px;
   font-size: 40px;
 }
+.mid-banner button {
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+  width: 160px;
+  height: 64px;
+  left: 294px;
+  top: 2398.96px;
+}
 
 /* bonus */
-.focus-items {
+/* .focus-items {
   display: flex;
   justify-content: space-evenly;
 }
 .focus-description {
-}
+} */
 .footer {
   background-color: rgb(3, 3, 27);
   padding: 45px 150px 50px 150px;
@@ -171,7 +179,6 @@ ul {
   padding: 50px;
 }
 .form {
-
   color: #ffffff;
   width: 50%;
   padding-top: 50px;
